@@ -39,7 +39,7 @@ Kode Anda digabungkan dalam satu file, namun secara konseptual, strukturnya adal
 
     ```javascript
     // API key remove.bg - Ganti dengan API key Anda yang asli
-    const apiKey = 'mWP5FxsCuygWZFXbkh1GFiUA'; 
+    const apiKey = 'API_KEY'; 
     ```
 
 4.  **Ganti** nilai *placeholder* (`mWP5FxsCuygWZFXbkh1GFiUA`) dengan **API Key remove.bg** Anda.
