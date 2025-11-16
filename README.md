@@ -1,10 +1,10 @@
-# 📸 Background Remover | Alat Penghapus Latar Belakang Profesional
+# Background Remover | Alat Penghapus Latar Belakang Profesional
 
 Aplikasi web sederhana untuk menghapus latar belakang gambar secara otomatis menggunakan teknologi AI.
 
 ---
 
-## ✨ Fitur Utama
+##Fitur Utama
 
 | Ikon | Fitur | Deskripsi |
 | :---: | :--- | :--- |
@@ -16,7 +16,7 @@ Aplikasi web sederhana untuk menghapus latar belakang gambar secara otomatis men
 
 ---
 
-## 🛠️ Instalasi dan Konfigurasi
+##  Instalasi dan Konfigurasi
 
 Proyek ini adalah *frontend* murni (HTML, CSS, JS) dan hanya memerlukan API Key dari layanan pihak ketiga.
 
@@ -31,7 +31,7 @@ Kode Anda digabungkan dalam satu file, namun secara konseptual, strukturnya adal
 . └── index.html (Struktur, Gaya, dan Logika Aplikasi terintegrasi)
 
 
-### 3. Konfigurasi Kunci API (PENTING)
+### Konfigurasi Kunci API (PENTING)
 
 1.  Buka file `index.html`.
 2.  Gulir ke bawah ke dalam tag `<script>` (di bagian JavaScript).
@@ -46,7 +46,7 @@ Kode Anda digabungkan dalam satu file, namun secara konseptual, strukturnya adal
 
 ---
 
-## 🚀 Panduan Penggunaan
+## Panduan Penggunaan
 
 1.  Buka file `index.html` di browser web Anda (atau di mode *Preview*).
 2.  Lakukan unggahan dengan salah satu cara:
@@ -58,7 +58,7 @@ Kode Anda digabungkan dalam satu file, namun secara konseptual, strukturnya adal
 
 ---
 
-## 💻 Teknologi yang Digunakan
+##  Teknologi yang Digunakan
 
 * **HTML5 & CSS3:** Untuk struktur dan gaya responsif.
 * **JavaScript (Vanilla JS):** Untuk logika klien, validasi, dan manipulasi DOM.
