@@ -6,13 +6,13 @@ Aplikasi web sederhana untuk menghapus latar belakang gambar secara otomatis men
 
 ## Fitur Utama
 
-| Ikon | Fitur | Deskripsi |
-| :---: | :--- | :--- |
-| ⬆️ | **Unggahan Fleksibel** | Mendukung unggahan gambar melalui klik tombol atau **Seret & Letakkan** (*Drag and Drop*). |
-| 🤖 | **Pemrosesan AI** | Menggunakan API **remove.bg** untuk penghapusan latar belakang yang cepat dan akurat. |
-| 🖼️ | **Pratinjau Hasil** | Menampilkan perbandingan berdampingan (sebelum vs. sesudah diproses). |
-| 📥 | **Unduh Instan** | Hasil diunduh dalam format PNG transparan berkualitas tinggi. |
-| 🛑 | **Validasi & Notifikasi** | Memiliki validasi ukuran file (maks. 10MB) dan sistem notifikasi kesalahan real-time. |
+| Fitur | Deskripsi |
+| :--- | :--- |
+| **Unggahan Fleksibel** | Mendukung unggahan gambar melalui klik tombol atau **Seret & Letakkan** (*Drag and Drop*). |
+| **Pemrosesan AI** | Menggunakan API **remove.bg** untuk penghapusan latar belakang yang cepat dan akurat. |
+| **Pratinjau Hasil** | Menampilkan perbandingan berdampingan (sebelum vs. sesudah diproses). |
+| **Unduh Instan** | Hasil diunduh dalam format PNG transparan berkualitas tinggi. |
+| **Validasi & Notifikasi** | Memiliki validasi ukuran file (maks. 10MB) dan sistem notifikasi kesalahan real-time. |
 
 ---
 
