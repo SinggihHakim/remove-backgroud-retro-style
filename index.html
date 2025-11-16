@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Remover | Alat Penghapus Latar Belakang Profesional</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="title">Penghapus Latar Belakang Profesional</h1>
+            <p class="subtitle">Hapus latar belakang gambar Anda dengan mudah dan cepat menggunakan teknologi AI</p>
+        </header>
+
+        <main class="main-content">
+            <div class="upload-section">
+                <div class="upload-area" id="uploadArea">
+                    <div class="upload-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                            <polyline points="17 8 12 3 7 8"></polyline>
+                            <line x1="12" y1="3" x2="12" y2="15"></line>
+                        </svg>
+                    </div>
+                    <p class="upload-text">Seret & letakkan gambar di sini atau <span class="browse-text">klik untuk memilih</span></p>
+                    <input type="file" id="upload" accept="image/*" hidden>
+                </div>
+                <div class="file-info" id="fileInfo"></div>
+                <button id="removeBgBtn" class="process-btn" disabled>
+                    <span class="btn-text">Proses Penghapusan Latar Belakang</span>
+                    <span class="btn-loader" style="display: none;">
+                        <span class="loader"></span> Memproses...
+                    </span>
+                </button>
+            </div>
+
+            <div class="results-section" id="resultsSection" style="display: none;">
+                <div class="results-container">
+                    <div class="image-comparison">
+                        <div class="image-card">
+                            <h3 class="image-title">Gambar Asli</h3>
+                            <div class="image-wrapper">
+                                <img id="originalImage" src="" alt="Gambar Asli" style="display: none;"/>
+                                <div class="placeholder" id="originalPlaceholder">
+                                    <p>Gambar asli akan muncul di sini</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comparison-arrow">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </div>
+                        <div class="image-card">
+                            <h3 class="image-title">Hasil Pemrosesan</h3>
+                            <div class="image-wrapper">
+                                <img id="outputImage" src="" alt="Gambar Hasil" style="display: none;" />
+                                <div class="placeholder" id="resultPlaceholder">
+                                    <p>Gambar akan muncul di sini setelah diproses</p>
+                                </div>
+                            </div>
+                            <div class="action-buttons">
+                                <button id="downloadBtn" class="download-btn" style="display:none;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                        <polyline points="7 10 12 15 17 10"></polyline>
+                                        <line x1="12" y1="15" x2="12" y2="3"></line>
+                                    </svg>
+                                    Unduh Gambar
+                                </button>
+                                <button id="resetBtn" class="reset-btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"></path>
+                                        <path d="M3 3v5h5"></path>
+                                    </svg>
+                                    Proses Gambar Baru
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p>Alat penghapus latar belakang yang mudah digunakan dengan hasil berkualitas tinggi</p>
+        </footer>
+    </div>
+
+    <!-- Notification Container -->
+    <div id="notificationContainer" class="notification-container"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
