@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const btnLoader = document.querySelector('.btn-loader');
     const notificationContainer = document.getElementById('notificationContainer');
 
-    const apiKey = 'iCKD52TvyR3iUsFYBx3q2Bhu'; 
+    const apiKey = 'API_KEY'; 
 
     // Variabel untuk menyimpan URL blob hasil
     let processedImageUrl = null;
@@ -356,4 +356,5 @@ document.addEventListener('DOMContentLoaded', function() {
         e.preventDefault();
         e.stopPropagation();
     });
+
 });
