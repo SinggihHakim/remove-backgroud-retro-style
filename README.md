@@ -4,7 +4,7 @@ Aplikasi web sederhana untuk menghapus latar belakang gambar secara otomatis men
 
 ---
 
-##Fitur Utama
+## Fitur Utama
 
 | Ikon | Fitur | Deskripsi |
 | :---: | :--- | :--- |
