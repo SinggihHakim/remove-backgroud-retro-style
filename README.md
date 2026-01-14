@@ -85,18 +85,9 @@ const apiKey = 'YOUR_API_KEY_HERE';
 
 ---
 
-## 📸 Screenshots
 
 <div align="center">
-<img src="https://www.google.com/search?q=https://placehold.co/600x400%3Ftext%3DApp%2BInterface%2BPreview" alt="Application Screenshot" width="80%">
+Created by <strong>Singgih Hakim</strong>
 </div>
 
----
 
-<div align="center">
-Created by <strong>[Your Name]</strong>
-</div>
-
-```
-
-```
